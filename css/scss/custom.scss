@@ -1,0 +1,241 @@
+@import "bootstrap.min";
+@import "bootstrap-responsive.min";
+
+@import "utils";
+
+// GLOBAL ============================================================================ //
+
+body {
+  background: $lt-green url('../img/noise.png');
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+section {
+  padding: 40px 0;
+}
+a {
+  color: #FFF;
+  &:hover {
+    color: #FFF;
+  }
+}
+.banner {
+  color: #FFF;
+  margin: 0 auto 40px;
+  max-width: 300px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: 75%;
+  height: 40px;
+  &:before, &:after {
+    content: "";
+    border-style: solid;
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  &:before {
+    border-width: 40px 0 40px 20px;
+    top: 0;
+    left: -20px;
+  }
+  &:after {
+    border-width: 40px 20px 40px 0;
+    top: 0;
+    right: -20px;
+  }
+  @include breakpoint(phone) {
+    font-size: 20px;
+  }
+}
+.lead {
+  font-weight: 600;
+}
+img {
+  @include prefix(box-shadow, 0 1px 4px rgba(0,0,0,.4));
+  background-color: #FFF;
+  max-width: 94%;
+  padding: 3%;
+  @include breakpoint(tablet) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// HEADER ============================================================================ //
+
+nav, footer {
+  background: $drk-red url('../img/noise.png');
+}
+.hero-unit {
+  background: url('../img/wall.jpg') no-repeat left bottom;
+  @include prefix(background-size, cover);
+  @include prefix(border-radius, 0);
+  margin-bottom: 0;
+  h1 {
+    background-color: #000;
+    padding: 10px;
+    font-size: 56px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    @include breakpoint(tablet) {
+      font-size: 30px;
+    }
+    @include breakpoint(phone) {
+      font-size: 24px;
+    }
+  }
+  .btn{
+    @include button;
+  }
+  @include breakpoint(tablet) {
+    padding: 40px 20px 20px;
+  }
+} 
+.nav {
+  font-weight: 700;
+  margin: 5px 0;
+  text-transform: uppercase;
+  li a:hover {
+    background-color: rgba(255,255,255,.3);
+    color: #FFF;
+  }
+}
+.logo {
+  background-color: $green;
+  padding: 20px 10px;
+  position: absolute;
+  span {
+    @extend %ir;
+    @include prefix(transform, rotate(-6deg));
+    background: url('../img/logo.png') no-repeat;
+    display: block;
+    width: 156px;
+    height: 59px;
+  }
+  &:after {
+    @include prefix(transform, rotate(.01deg));
+    border-color: $green $green transparent $green;
+    border-style: solid;
+    border-width: 0 88px 20px 88px;
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 0;
+    height: 0;
+  }
+  @include breakpoint(phone) {
+    display: block;
+    font-weight: 600;
+    margin-left: -20px;
+    padding: 10px 20px;
+    position: static;
+    text-align: center;
+    width: 100%;
+    span {
+      @include prefix(transform, rotate(0));
+      background: none;
+      text-indent: 0;
+      width: auto;
+      height: auto; 
+    }
+    &:after {
+      display: none;
+    }
+  }
+}
+
+// ABOUT ============================================================================ //
+
+.section-about {
+  background: $lt-green url('../img/noise.png');
+  .btn {
+    @include button;
+    margin-top: 20px;
+  }
+  .banner {
+    @include prefix(box-shadow, 0 4px 0 darken($green, 10%));
+    background-color: $green;
+    &:before, &:after {
+      @include prefix(box-shadow, 0 4px 0 darken($green, 10%));
+    }
+    &:before {
+      border-color: $green $green $green transparent;
+    }
+    &:after {
+      border-color: $green transparent $green $green;
+    }
+  }
+}
+
+// BIKES ============================================================================ //
+.section-bikes {
+  background: $lt-mauve url('../img/noise.png');
+  color: #333;
+  .btn {
+    @include button($mauve);
+  }
+  .banner {
+     @include prefix(box-shadow, 0 4px 0 darken($mauve, 10%));
+    background-color: $mauve;
+    &:before, &:after {
+      @include prefix(box-shadow, 0 4px 0 darken($mauve, 10%));
+    }
+    &:before {
+      border-color: $mauve $mauve $mauve transparent;
+    }
+    &:after {
+      border-color: $mauve transparent $mauve $mauve;
+    }
+  }
+  .span4 {
+    margin-bottom: 20px;
+  }
+}
+
+// FOOTER ============================================================================ //
+footer {
+  h3 {
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    line-height: 50px;
+  }
+  .btn {
+    @include button($mauve);
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    &:hover {
+      color: #FFF;
+    }
+  }
+}
+
+// MEDIA QUERIES ===================================================================== //
+@media (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+  .container {
+    margin: 0 20px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+// BLOG ============================================================================== //
+.section-blog {
+  color: #222;
+  padding-top: 70px;
+  .container {
+    max-width: 900px;
+  }
+}
