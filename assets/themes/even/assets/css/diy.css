@@ -8471,66 +8471,6 @@ hr {
 .splash #logo a {
   background-image: url(/images/www/splash/logo_patch.png);
 }
-.splash .featured-block {
-  position: absolute;
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.07);
-  zoom: 1;
-  background-color: transparent\9;
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#12ffffff, endColorstr=#12ffffff)";
-  padding: 10px 10px 4px 10px;
-  top: 44px;
-  left: 0;
-  z-index: 3;
-  text-align: center;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
-}
-.splash .featured-block a {
-  font-size: 16px;
-  display: block;
-  font-family: ApexRounded, sans-serif;
-}
-.splash .featured-block .thumb {
-  margin: 0 0 5px 0;
-  background-position: center center;
-}
-.splash .featured-block .thumb .play-icn {
-  font-size: 45px;
-  font-size: 2.8125rem;
-  position: absolute;
-  top: 35px;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.8);
-}
-.splash .featured-block .anthem-thumb {
-  text-indent: 100%;
-  white-space: nowrap;
-  text-indent: 1000em;
-  overflow: hidden;
-  display: block;
-  background-image: url('/images/www/splash/anthem.jpg?2');
-  width: 220px;
-  height: 76px;
-}
-.splash .featured-block .app-thumb {
-  text-indent: 100%;
-  white-space: nowrap;
-  text-indent: 1000em;
-  overflow: hidden;
-  display: block;
-  background-image: url('/images/www/splash/ios.jpg');
-  width: 220px;
-  height: 76px;
-  background-size: 100%;
-  text-indent: 0;
-}
 .splash #patches {
   position: relative;
   width: 100%;
