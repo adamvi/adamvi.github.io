@@ -8049,94 +8049,6 @@ hr {
     visibility: visible;
   }
 }
-.stories .paw-logo-inverse {
-  display: block;
-  background: transparent url(/images/inverse-logo.svg);
-}
-.stories .paw-logo-sml {
-  width: 76px;
-  height: 78px;
-  background-size: 76px 78px;
-}
-.stories .media-list {
-  list-style: none;
-  margin: 0;
-  *zoom: 1;
-}
-.stories .media-list:before,
-.stories .media-list:after {
-  display: table;
-  content: "";
-}
-.stories .media-list:after {
-  clear: both;
-}
-.stories .media-list > li {
-  float: left;
-  width: 100%;
-  margin-right: 1em;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 10px;
-}
-@media screen and (min-width: 30em) and (max-width: 50em) {
-  .stories .media-list > li {
-    width: 48.9%;
-  }
-  .stories .media-list > li:nth-child(2n) {
-    margin: 0;
-  }
-  .stories .media-list > li:nth-child(2n+1) {
-    clear: left;
-  }
-}
-@media screen and (min-width: 50em) {
-  .stories .media-list > li {
-    width: 31.9%;
-  }
-  .stories .media-list > li:nth-child(3n) {
-    margin: 0;
-  }
-  .stories .media-list > li:nth-child(3n+1) {
-    clear: left;
-  }
-}
-.stories .media-list .media-list-object {
-  position: relative;
-  max-height: 154px;
-}
-.stories.lt-ie9 .media-list > li {
-  width: 31.9%;
-}
-.stories.lt-ie9 .media-list > li:nth-child(3n) {
-  margin: 0;
-}
-.stories.lt-ie9 .media-list > li:nth-child(3n+1) {
-  clear: left;
-}
-.stories .media-list-low-light > li {
-  background-color: #333;
-  background-color: rgba(255, 255, 255, 0.05);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
-  border: 1px solid transparent;
-}
-.stories .media-list-low-light > li:hover {
-  background-color: #444;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.1);
-}
-.stories .media-list-low-light > li.active,
-.stories .media-list-low-light > li.active:hover {
-  background-color: #00c796;
-  border-color: transparent;
-}
-.stories .media-list-low-light .avatar {
-  border: 1px solid transparent;
-}
-.stories .media-list-low-light .active .avatar {
-  border-color: rgba(255, 255, 255, 0.2);
-}
 /*
  * Pages
  */
@@ -12905,9 +12817,6 @@ html.hq #page-static-about {
      * Staff block
      */
 
-  /**
-     * Stories
-     */
 
 }
 html.hq #page-static-about .content-box {
