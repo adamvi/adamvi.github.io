@@ -1,9 +1,0 @@
----
-name : "flattern"
-website :  "https://github.com/adamvi"
-git_url : "https://github.com/adamvi/adamvi.git"
-source_url : "https://github.com/adamvi"
-description :  "A responsive Jekyll-Bootstrap theme for my Github site."
-author:
-  name : "Adam Van Iwaarden"
-  email : "avaniwaarden@gmail.com"
