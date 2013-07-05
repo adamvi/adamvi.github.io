@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
 
-	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>Even - Responsive portofolio at Bootstrap </title> 
-	<meta content="Responsive business at Bootstrap" name="description">
-	<meta content="flat, responsive, business" name="keywords">
-	<!-- end: Meta -->
+	<title>      {% if page.title %}
+        {{ page.title }} - 
+      {% endif %}
+      {{ site.title }}
+    </title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
 	
 	<!-- start: Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
