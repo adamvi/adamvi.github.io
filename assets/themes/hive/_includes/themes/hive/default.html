@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>      {% if page.title %}
+        {{ page.title }} - 
+      {% endif %}
+      {{ site.title }}
+    </title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+	
+	
+	<!-- start: Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<!-- end: Mobile Specific -->
+
+    <!-- start: CSS -->
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/style.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/hex-grid.css">
+    <!-- end: CSS -->
+
+    <!-- start: browser tab icon -->
+    <link rel="shortcut icon" href="{{ ASSET_PATH }}/bootstrap/images/favicon.ico">
+	<!-- end: icon -->
+
+	<!--  Yellow color for hive -->
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/color-1.css">
+	<!-- start: style switcher
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/color-1.css" class="switchable">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/color-2.css" class="switchable">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/color-3.css" class="switchable">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/color-4.css" class="switchable">
+	end: style switcher -->
+
+    <!--[if IE 9]>
+		<style>.img-mask .flipper {display: none;}</style>
+	<![endif]-->  
+    <!--[if IE 8]>
+		<style>.boxy{position:relative;width:150px;height:150px;}.flipper {overflow: hidden;}.subscribe input[type="text"], .subscribe textarea {width: 35%;}.plan-background {background-position: center;background-repeat: repeat-x;border:none;} .sign-background {background-position: center;background-repeat: repeat-x;border:none;}.countdown-background {background-position: center;background-repeat: repeat-x;border:none;}.page-title {background-position: center;background-repeat: repeat-x;border:none;}.img-mask .flipper {display: none;}</style>	
+	<![endif]-->
+
+</head>
+
+<body class="home">
+
+<header id="header">
+
+	<!--start: navbar -->
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar">
+					<span><i class="icon-reorder"></i></span>
+				</a>
+				<a class="btn btn-navbar" href="sign-in.html"><i class="icon-signin"></i></a>
+
+				<a class="brand">{{site.title}}</a>
+
+				<div id="top-navigation" class="nav-collapse subnav-collapse collapse ">
+					<ul class="nav pull-right">
+						<li class="active">
+							<a href="index.html">Home</a>
+						</li>
+						<li class="dropdown">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">Pages<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="portfolio-item.html">Portfolio item</a></li>
+								<li><a href="features.html">Features</a></li>
+								<li><a href="sign-in.html">Sign in</a></li>
+								<li><a href="sign-up.html">Sign up</a></li>
+								<li><a href="password.html">Reset password</a></li>
+								<li><a href="plan.html">Plan</a></li>
+								<li><a href="blog-post.html">Blog</a></li>
+								<li><a href="post.html">Blog item</a></li>								
+								<li><a href="coming-soon.html">Comming Soon</a></li>
+								<li><a href="404.html">404 error</a></li>														
+							</ul>
+						</li>
+						<li class=""><a href="about.html">About Us</a></li>
+						<li class=""><a href="features.html">Features</a></li>
+						<li class=""><a href="plan.html">Plan</a></li>
+						<li class=""><a href="blog-post.html">Blog</a></li>
+						<li class=""><a href="contact.html">Contact</a></li>
+						<li class="top-account visible-desktop"><a class="top-sign-up" href="sign-up.html">Sign UP</a></li>
+						<li class="top-account visible-desktop"><a class="top-sign-in" href="sign-in.html">Sign In</a></li>
+					</ul>
+				</div>	
+		
+			</div>
+		</div>
+	</div><!--end: navbar -->
+
+</header>
+
+    <!-- start: slider -->
+    <div class="slider-wrapper slider-wrapper">
+
+            <div id="slider" class="sl-slider-wrapper">
+
+				<div class="sl-slider">
+				
+					<div class="sl-slide bg-1" data-orientation="horizontal" >
+						<div class="sl-slide-inner">
+							<a href="professional.html"><h2><span class="btn btn-large ">Professional Life</span></h2></a>				
+						</div>
+					</div>
+					
+					<div class="sl-slide bg-2" data-orientation="vertical">
+						<div class="sl-slide-inner">
+							<a href="academic.html"><h2><span class="btn btn-large ">Academic Life</span></h2></a>	
+						</div>
+					</div>
+					
+					<div class="sl-slide bg-3" data-orientation="horizontal">
+						<div class="sl-slide-inner">
+							<a href="personal.html"><h2><span class="btn btn-large ">Real Life</span></h2></a>	
+						</div>
+					</div>				
+				
+				</div><!-- /sl-slider -->
+				
+				<nav id="nav-arrows" class="nav-arrows">
+					<span class="nav-arrow-prev">Previous</span>
+					<span class="nav-arrow-next">Next</span>
+				</nav>
+
+				<nav id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+				</nav>
+
+        </div><!-- /slider-wrapper -->
+	
+
+    </div><!-- end: slider -->	
+
+<!-- start: sticky area
+<div class="persist-area">
+</div> end: sticky area -->	
+
+
+    <div class="outer skill">
+        <div class="hive-grid hive-grid-inset">
+            <!--  HERO -->
+            <div style="margin-left: -126.5px; margin-top: -146.07px; z-index: 3;" class="patch hero-patch">
+            	<a style="background-image: url(https://d1973c4qjhao9m.cloudfront.net/patches/frontenddev_253x292.png);"></a>
+            	<div class="blank"></div>
+            </div>
+            <!--  upper left hex -->
+            <div style="margin-left: -253px; margin-top: -365.174px; z-index: 1;" class="patch">
+            	<a href="https://diy.org/skills/datavisionary" style="background-image: url(https://d1973c4qjhao9m.cloudfront.net/patches/datavisionary_253x292.png?);"></a>
+            	<div class="blank"></div>
+            </div>
+            <!--  upper right hex -->
+            <div style="margin-left: 0px; margin-top: -365.174px; z-index: 1;" class="patch">
+            	<a href="https://diy.org/skills/cryptographer" style="background-image: url(https://d1973c4qjhao9m.cloudfront.net/patches/cryptographer_253x292.png);"></a>
+            	<div class="blank"></div>
+            </div>
+            <!--  center left hex -->
+            <div style="margin-left: -379.5px; margin-top: -146.07px; z-index: 1;" class="patch">
+            	<a href="https://diy.org/skills/detective" style="background-image: url(https://d1973c4qjhao9m.cloudfront.net/patches/detective_253x292.png);"></a>
+            	<div class="blank"></div>
+            </div>
+            <!--  center right hex -->
+            <div style="margin-left: 126.5px; margin-top: -146.07px; z-index: 1;" class="patch">
+            	<a href="https://diy.org/skills/circuitbender" style="background-image: url(https://d1973c4qjhao9m.cloudfront.net/patches/circuitbender_253x292.png?2);"></a>
+            	<div class="blank"></div>
+            </div>
+            <!--  lower left hex -->
+            <div style="margin-left: -253px; margin-top: 73.0348px; z-index: 1;" class="patch">
+            	<a href="https://diy.org/skills/entrepreneur" style="background-image: url(https://d1973c4qjhao9m.cloudfront.net/patches/entrepreneur_253x292.png);"></a>
+            	<div class="blank"></div>
+            </div>
+            <!--  lower right hex -->
+            <div style="margin-left: 0px; margin-top: 73.0348px; z-index: 1;" class="patch">
+            	<a href="https://diy.org/skills/backenddev" style="background-image: url(https://d1973c4qjhao9m.cloudfront.net/patches/backenddev_253x292.png);"></a>
+            	<div class="blank"></div>
+            </div>
+             -->
+		 </div>
+		 <div class="inner">
+             <header class="skill-header">
+            	 <div class="row">
+            		 <div class="skill-summary span10 offset1">
+                         <h1 class="lrg-heading">Frontend Dev</h1>
+                         <p>Frontend Developers code the HTML, CSS and Javascript elements that make up websites. We push the limits of what can be built on the web.</p>
+            		 </div>
+            	 </div>
+             </header>
+		 </div>
+            
+
+	<!-- start: hello -->
+	<div class="section-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="span6">
+					<div class="separator">
+						<div class="left">
+							<div class="lines">
+								<div>
+								<h2 class="lines-title">Hello!</h2>
+								</div>
+							</div>
+						</div>
+					</div>		
+					<i class="icon-check icon-4x pull-left icon-muted"></i><p>Hello madam, my name is Adam.  I'm a grad student in Educational Measurement with a keen interest in Ed policy applications.  I am technically a statistical gun for hire (independent contractor), but I work almost exclusively for the National Center for the Improvement of Educational Assessment (The Center).  My heart is in Colorado, my a$$ is in Texas (a true labor of love for my wife!) and my life takes place mostly in cyberspace.</p>
+				</div>
+
+				<div class="span6">
+					<div class="separator">
+						<div class="left">
+							<div class="lines">
+								<div>
+								<h2 class="lines-title">Services </h2>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+				<div class="accordion" id="accordion2">
+
+				  <div class="accordion-group">
+				    <div class="accordion-heading">
+				      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+				         Applied Statistics <span class="accordion-icon"><i class="icon-angle-down"></i></span>
+				      </a>
+				    </div>
+				    <div id="collapseOne" class="accordion-body collapse in">
+				      <div class="accordion-inner">
+				        I generally work in social sciences (with a brief foray into health sciences / otology).  Unlike most of my professional peers it seems, I believe predictive inference trumps parametric inference and that ordinal stats are the tool of choice for the social sciences.  So suck on that, freq(uentist)s!
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="accordion-group">
+				    <div class="accordion-heading">
+				      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+				        Development & Design <span class="accordion-icon"><i class="icon-angle-down"></i></span>
+				      </a>
+				    </div>
+				    <div id="collapseTwo" class="accordion-body collapse">
+				      <div class="accordion-inner">
+						  The statistical language R is my forte.  I've recently begun learning various web languages, including html, css and javascript (with particularly interest in D3, crossfire, and geo/topoJson).  I use Github extensively for my development projects.
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="accordion-group">
+				    <div class="accordion-heading">
+				      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+				        Master Chef <span class="accordion-icon"><i class="icon-angle-down"></i></span>
+				      </a>
+				    </div>
+				    <div id="collapseThree" class="accordion-body collapse">
+				      <div class="accordion-inner">
+						  Skilled in the arts, yet lacking formal training.  A fat kid's intuition is all I need.  Skilz include smoking, grilling, pasta making, tacos and SOUS VIDE!  Mmmmgghh!!!
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="accordion-group">
+				    <div class="accordion-heading">
+				      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+				        Ski Guide <span class="accordion-icon"><i class="icon-angle-down"></i></span>
+				      </a>
+				    </div>
+				    <div id="collapseFour" class="accordion-body collapse">
+				      <div class="accordion-inner">
+				        Not really, but a boy can dream!  But seriously, you buy I'll fly ...
+				      </div>
+				    </div>
+				  </div>
+
+				</div>
+
+				</div>
+			</div>
+		</div>
+	</div><!-- end: hello -->
+
+<!-- start: footer
+<footer>
+	<div class="pre-footer">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="section-wrapper clearfix">
+
+					<div class="span5">
+						<div class="separator">
+							<div class="">
+								<div class="lines">
+									<div>
+									<h3 class="lines-title">Latest tweet</h3>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<div class="tweet"></div> 
+					</div>
+			
+					<div class="span3">
+						<div class="separator">
+							<div class="">
+								<div class="lines">
+									<div>
+									<h3 class="lines-title">Contact Even</h3>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<ul class="contact-footer">
+							<li>
+								<i class="icon-map-marker"></i>  Angers, 49100, France
+							</li>
+							<li>
+								<i class="icon-phone"></i> (123) 456-7890
+							</li>
+							<li>
+								<i class="icon-envelope-alt"></i> contact@even.com
+							</li>
+							<li>
+								<i class="icon-globe"></i><a href="#">www.even.com</a> 
+							</li>							
+						</ul>
+
+						<p class="footer-subscribe"><strong>Subscribe for monthly updates:</strong></p>
+
+						<form id="newsletter">
+				              <input type="text" placeholder="Enter email adress">
+				              <button type="button" class="btn-dark btn-large">Send</button>
+						</form>						
+
+					</div>
+
+
+					<div class="span4">
+						<div class="separator">
+							<div class="">
+								<div class="lines">
+									<div>
+									<h3 class="lines-title">Work with us</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis facere voluptatibus nostrum nam sit sapiente vitae quasi fugit reiciendis dconsectetur adipisicing elit. Placeat perspiciatis facere voluptatibus nostrum nam sit sapiente vitae quasi fugit </p>				
+						<a class="span 4 project" href="contact.html"><button type="button" class="btn-dark btn-large">Start a project</button></a>
+
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer> end: footer -->
+
+
+</body>
+
+</html>
