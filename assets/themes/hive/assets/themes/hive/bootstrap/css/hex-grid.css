@@ -6225,7 +6225,7 @@ hr {
 }
 .hive-grid {
   background-color: #313131;
-  background-image: url('/images/www/skill/hex-grid-sml2.png');
+  background-image: url('{{ ASSET_PATH }}/bootstrap/images/hex-grid/hex-grid-sml2.png');
   background-position: center;
   position: relative;
   overflow: hidden;
