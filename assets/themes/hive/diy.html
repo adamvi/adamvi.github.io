@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!-- ASCII LOGO -->
+<!--
+                                       .                                                 
+                                      oXO,                                               
+                        .c,          :NMMX,                                              
+                       ,KMX;         dNWWXl        .xx,                                  
+                      .OWMMX.        .,___,        .XMWk.                                
+                      .clclc.        .OWWWNd.      .OXXKx.                               
+                       ;___'        .kWMMMMWO.       ....                                
+                      dWMMMNo       'XMMMMMMNc      .kNWW0c.                             
+                     :NMMMMMNl      :NMMMMMMMK.     cNMMMMWO.                            
+                    .KMMMMMMMX'     lWMMMMMMMWl     xWMMMMMWO.       dx;.                
+                    cNMMMMMMMWx     dWMMMMMMMM0.    OMMMMMMMWo       OMWK:               
+                   .OMMMMMMMMMX'   .OMMMMMMMMMN:   .KMMMMMMMMN:      ,oool.              
+          .        .NMMMMMMMMMNc   .XMMMMMMMMMWO.  .KMMMMMMMMMK.      .;--,              
+        ,kXk       ;NMMMMMMMMMWk   .XMMMMMMMMMMX'  .KMMMMMMMMMWd      xWMMW0;            
+      .xWMMK.      cWMMMMMMMMMMX.  .XMMMMMMMMMMN:  .KMMMMMMMMMMN;    .KMMMMMNc           
+      dWMMWO       xWMMMMMMMMMMX'  .XMMMMMMMMMMWd  .KMMMMMMMMMMMO.   .XMMMMMMNc          
+      ,....,      .KMMMMMMMMMMMN:  .XMMMMMMMMMMMK. .KMMMMMMMMMMMN;   .XMMMMMMMX,         
+     .:dkd,.      .XMMMMMMMMMMMNo  .XMMMMMMMMMMMX' .KMMMMMMMMMMMWx   .XMMMMMMMWx.        
+    lXMMMMW0:     'NMMMMMMMMMMMWO. .XMMMMMMMMMMMN: .KMMMMMMMMMMMMX'  .XMMMMMMMMN'        
+   dWMMMMMMMX'    ,NMMMMMMMMMMMMX,.:NMMMMMMMMMMMWk;:XMMMMMMMMMMMMNc  .XMMMMMMMMWl        
+  ;NMMMMMMMMX,    ,NMMMMMMMMMMMMMNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO'..XMMMMMMMMM0.       
+ .OWMMMMMMMMX,    ,NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWXKWMMMMMMMMMN'       
+ .XMMMMMMMMMN:    ;NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN;       
+ .XMMMMMMMMMMK; .cXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN;   ,.  
+ .kWMMMMMMMMMMWKXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN:  lX:  
+  :NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWl,xWN;  
+  .0MMMMMMMMMMMMWx,......',ck0NMMXOkkkkkkkkkkkkkkkOXWKl;''''oNMMMMMMWk;......,xWMNWMMN'  
+   'KMMMMMMMMMMM0.            .c0K,                'K0.      cNMMMW0;       .dNMMMMMWO.  
+cl. ,KMMMMMMMMMN:     ,,''.     .o0,                ;Xx.      :NMXl.       '0MMMMMMMN,   
+,NXxldWMMMMMMMWO.    ,NMWWK,     .kXOkxo.    .:cc:::lNWo       :d'        cXMMMMMMMWo    
+ oWMMMMMMMMMMMX,    .kWMMMWx      oWMMWd    .OMMMMMMMMMNc               .xWMMMMMMMWk.    
+ .dWMMMMMMMMMWd     cNMMMMK,     .OMMMX'    ;XMMMMMMMMMMNc             ,KMMMMMMMMWk.     
+   lNMMMMMMMMK.    .KWWN0o.      lWMMWx    .kWMMMMMMMMMMMN;          .oNMMMMMMMMWO. .'   
+    ;XMMMMMMNl      ....       .oNMMMN,    ,NMMMMMMMMMMMMN:         ,OWMMMMMMMMWk.'dKo   
+     'kWMMMM0.               .c0Kkddd:     ;k0KXWWWMMMMWk'        .xNMMMMMMMMMMXk0WMK.   
+       ,OWMWx.            .:kKO:.               ..'kWWO,         lXMMMMMMMMMMMMMMMMN;    
+     .c,.;OWWNNXX0O0OOOKXNWWK;                   'kWXc         ,OWMMMMMMMMMMMMMMMMX:     
+      :0NNNMMMMMMMMMMMMMMMMMWXKOkdol:;'.....   .dNNd.        .dNMMMMMMMMMMMMMMMMMK;      
+       .oXMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWWNNNNNWMMXdc;'... .cKMMMMMMMMMMMMMMMMMWk.       
+         .dXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWNNNNWMMMMMMMMMMMMMMMMMXc         
+           .cOWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXl.          
+              .l0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0c.            
+                 .ckXWWMMMMMMMMMMMMMMMMMMWWWWWWWWWMMMMMMMMMMMMMMMMMMMMWXx,               
+                     .,cdk0XNNWWWWNNKOdc;'.......,cdONWWWWMMMMMWWWNXko,.                 
+                             ......                   ..,;::::;,'..                      
+-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9 www splash no-fbauth"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class="no-js ie9 www splash no-fbauth"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js www splash no-fbauth"  > <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/profile#">
+        <meta charset="utf-8">
+    
+        <!-- Search -->
+        <meta name="keywords" content="DIY, Do It Yourself, Maker, learning, Making, Kids, Club, Education, Peer to Peer">
+        <meta name="description" content="Get skills. Be awesome.">
+        <meta name="distribution" content="Global">
+        <meta name="revisit-after" content="1 days">
+        <meta name="robots" content="FOLLOW,INDEX,NOODP">
+        
+        <!-- Vendor -->
+        <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=IE8">
+        <meta name="apple-itunes-app" content="app-id=519308960">
+        <meta name="viewport" content="width=1057,maximum-scale=1.0" />
+        
+        <!-- Facebook -->
+        <meta property="fb:admins" content="7201820">
+        <meta property="fb:app_id" content="234640949983130">
+        <meta property="og:site_name" content="DIY">
+        
+        <!-- Twitter -->
+        <meta property="twitter:app:name:iphone" content="DIY">
+        <meta property="twitter:app:id:iphone" content="519308960">
+        <meta property="twitter:site" content="@diy">
+        
+        <!-- Generated OpenGraph -->
+        <meta property="og:title" content="DIY">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://diy.org">
+        <meta property="og:image" content="http://a1.sphotos.ak.fbcdn.net/hphotos-ak-ash4/319757_291208817626833_1764011293_n.jpg">
+        
+
+        <title>Get skills. Be awesome. - DIY</title>
+        
+        <!-- relogo.org -->
+        <link rel="logo"
+              type="image/svg"
+              href="https://d10yyh63llk3uw.cloudfront.net/images/inverse-logo.svg"/>
+
+        <!-- Styles -->
+        <link rel="canonical" href="https://diy.org/">
+        <link rel="alternate" type="application/rss+xml" title="DIY Blog" href="http://diy.tumblr.com/rss">
+        <link rel="stylesheet" type="text/css" href="/fonts.css?18">
+        <link rel="stylesheet" type="text/css" href="//d10yyh63llk3uw.cloudfront.net/css/www/stylesheet.gz.css?e023b57e55">
+        
+        
+        
+        <!-- JS -->
+        <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"><![endif]-->
+        <script type="text/javascript" src="//cdn.sublimevideo.net/js/3l9mo5iy.js"></script>
+        <script src="//d10yyh63llk3uw.cloudfront.net/js/_min/modernizr.gz.js?v2c128ae7ac9"></script>
+        <script>var _deferred=[]; var _defer=function(fn){_deferred.push(fn);};</script>
+        
+
+        <!-- Mixpanel -->
+        
+            <script type="text/javascript">
+                (function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");
+                b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+
+                '//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';d=c.getElementsByTagName("script")[0];
+                d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){
+                var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(
+                Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g=a[f]=[]:
+                f="mixpanel";g.people=g.people||[];h=['disable','track','track_pageview','track_links',
+                'track_forms','register','register_once','unregister','identify','alias','name_tag',
+                'set_config','people.set','people.increment','people.track_charge','people.append'];
+                for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.2;})(document,window.mixpanel||[]);
+                
+                mixpanel.init('38122c6903592e4c1ab4975813aa6694');
+                var _mxp = function (scope, tag, options) {
+                    // Defaults
+                    if (typeof options === 'undefined') options = { scope: scope };
+                    if (typeof options.scope === 'undefined') options.scope = scope || 'undefined';
+                    if (typeof options.client === 'undefined') options.client = 'www';
+                    
+                    // Track call
+                    mixpanel.track(tag, options);
+                }
+            </script>
+        
+    </head>
+    <body>
+        <script>var _sf_startpt=(new Date()).getTime();</script>
+        <div id="fb-root"></div>
+
+        <script>_mxp('browse', 'splash')</script>
+        <section class="sign-in">
+            <div class="body">
+                <div class="pull-right">
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Sign In <span class="caret"></span></a>
+                        <div class="dropdown-menu allow-click">
+                            <a href="//parents.diy.org/" class="parent">Parent Sign In</a>
+                            <form method="post" action="#" id="signin-form">
+                                
+                                <div class="controls nickname">
+                                    <label for="field-signin-nickname">Nickname</label>
+                                    <input type="text" name="nickname" id="field-signin-nickname">
+                                    <img class="maker-image">
+                                </div>
+                                <div class="controls password">
+                                    <label for="field-signin-password">Password</label>
+                                    <input type="password" name="password" id="field-signin-password">
+                                </div>
+                                <div class="controls remember pull-left">
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="remember" value="1"> Remember me
+                                    </label>
+                                    <a href="#" class="forgot">Forgot info?</a>
+                                </div>
+                                <div class="controls pull-right">
+                                    <input id="signin-btn" type="submit" class="btn btn-primary submit" value="Go!">
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="patch-grid">
+            <div id="logo"><a href="/">DIY</a></div>
+            <div id="patches">
+                
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/gardener_253x292.png?2"><a href="/skills/gardener">Gardener</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/animator_253x292.png?4"><a href="/skills/animator">Animator</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/fashiondesigner_253x292.png"><a href="/skills/fashiondesigner">Fashion Designer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/athlete_253x292.png"><a href="/skills/athlete">Athlete</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/instrumentmaker_253x292.png"><a href="/skills/instrumentmaker">Instrument Maker</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/clubmaker_253x292.png"><a href="/skills/clubmaker">Club Maker</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/chemist_253x292.png"><a href="/skills/chemist">Chemist</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/fortbuilder_253x292.png?2"><a href="/skills/fortbuilder">Fort Builder</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/entrepreneur_253x292.png"><a href="/skills/entrepreneur">Entrepreneur</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/magician_253x292.png"><a href="/skills/magician">Magician</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/chef_253x292.png?2"><a href="/skills/chef">Chef</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/circuitbender_253x292.png?2"><a href="/skills/circuitbender">Circuit Bender</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/gamedev_253x292.png"><a href="/skills/gamedev">Game Dev</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/dancer_253x292.png"><a href="/skills/dancer">Dancer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/beekeeper_253x292.png"><a href="/skills/beekeeper">Beekeeper</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/camper_253x292.png?2"><a href="/skills/camper">Camper</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/backyardfarmer_253x292.png"><a href="/skills/backyardfarmer">Backyard Farmer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/landscaper_253x292.png"><a href="/skills/landscaper">Landscaper</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/forager_253x292.png"><a href="/skills/forager">Forager</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/cartographer_253x292.png?2"><a href="/skills/cartographer">Cartographer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/gamer_253x292.png?2"><a href="/skills/gamer">Gamer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/filmmaker_253x292.png"><a href="/skills/filmmaker">Filmmaker</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/medic_253x292.png"><a href="/skills/medic">Medic</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/datavisionary_253x292.png?"><a href="/skills/datavisionary">Data Visionary</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/interiordesigner_253x292.png"><a href="/skills/interiordesigner">Interior Designer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/baker_253x292.png"><a href="/skills/baker">Baker</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/geologist_253x292.png?2"><a href="/skills/geologist">Geologist</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/bikemechanic_253x292.png?4"><a href="/skills/bikemechanic">Bike Mechanic</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/cardboarder_253x292.png"><a href="/skills/cardboarder">Cardboarder</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/mycologist_253x292.png"><a href="/skills/mycologist">Mycologist</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/cryptographer_253x292.png"><a href="/skills/cryptographer">Cryptographer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/musician_253x292.png"><a href="/skills/musician">Musician</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/entomologist_253x292.png?3"><a href="/skills/entomologist">Entomologist</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/n00b_253x292.png?2"><a href="/skills/n00b">n00b</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/biologist_253x292.png?2"><a href="/skills/biologist">Biologist</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/mechanic_253x292.png"><a href="/skills/mechanic">Mechanic</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/frontenddev_253x292.png"><a href="/skills/frontenddev">Frontend Dev</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/astronomer_253x292.png?2"><a href="/skills/astronomer">Astronomer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/botanist_253x292.png"><a href="/skills/botanist">Botanist</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/illustrator_253x292.png?2"><a href="/skills/illustrator">Illustrator</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/mechanicalengineer_253x292.png"><a href="/skills/mechanicalengineer">Mechanical Engineer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/meteorologist_253x292.png"><a href="/skills/meteorologist">Meteorologist</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/backenddev_253x292.png"><a href="/skills/backenddev">Backend Dev</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/detective_253x292.png"><a href="/skills/detective">Detective</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/clothingmaker_253x292.png"><a href="/skills/clothingmaker">Clothing Maker</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/blockbuilder_253x292.png"><a href="/skills/blockbuilder">Block Builder</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/industrialdesigner_253x292.png"><a href="/skills/industrialdesigner">Industrial Designer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/oceanographer_253x292.png"><a href="/skills/oceanographer">Oceanographer</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/maker_253x292.png"><a href="/skills/maker">Maker</a></div>
+                <div data-image="//d1973c4qjhao9m.cloudfront.net/patches/hardwarehacker_253x292.png?2"><a href="/skills/hardwarehacker">Hardware Hacker</a></div>
+            </div>
+        </section>
+        <section class="content inverse-background">
+            <div class="body">
+                <a href="#" title="Close" class="close-btn">&times;</a>
+                <div class="step-common" style="display:none">
+                    <div class="selected-specie"></div>
+                    <div class="character-name"></div>
+                    <a href="#" class="btn btn-primary next">Next!</a>
+                </div>
+                <!-- - - - -->
+                <section class="join">
+                    <div class="cta-block">
+                        <div id="stories" class="featured-block">
+                            <a href="itms://itunes.apple.com/us/app/diy-get-skills.-become-awesome./id519308960?mt=8&amp;uo=4" target="itunes_store">
+                                <span class="thumb app-thumb"></span>DIY for iOS
+                            </a>
+                        </div>
+                        <p class="tagline">Get skills. Be awesome.<p>
+        
+                        
+                            <a href="/explore" class="btn btn-primary explore">Explore</a>
+                            <a href="#join" class="btn btn-focus join">Join</a>
+                            <a href="/skills" class="btn btn-primary explore">Skills</a>
+                        
+                    </div>
+                </section>
+                <!-- - - - -->
+                <section class="animal">
+                    <div class="top">
+                        <div class="left">
+                            <h2>Choose an Avatar</h2>
+                        </div>
+                        <div class="right">
+                            <div class="steps">
+                                <span class="step-1 viewed">1</span>
+                                <span class="sep"></span>
+                                <span class="sep"></span>
+                                <span class="step-2">2</span>
+                                <span class="sep"></span>
+                                <span class="sep"></span>
+                                <span class="step-3">3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="specie-options"></div>
+                    </div>
+                    <div class="footer">
+                    </div>
+                </section>
+                <!-- - - - -->
+                <section class="nickname">
+                    <div class="top">
+                        <div class="left">
+                            <h2>Create a Nickname</h2>
+                        </div>
+                        <div class="right">
+                            <div class="steps">
+                                <a class="step-1 viewed checked" href="#">1</a>
+                                <span class="sep filled"></span>
+                                <span class="sep filled"></span>
+                                <span class="step-2 viewed">2</span>
+                                <span class="sep"></span>
+                                <span class="sep"></span>
+                                <span class="step-3">3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="container">
+                            <h3><strong>Pull handle</strong> <span class="light">or</span> <strong>Type your own</strong></h3>
+                            <div class="nickname-generator">
+                                <span class="left-cap"></span>
+                                <input type="text" name="nickname" value="">
+                                <a href="#" class="lever" title="Generate a Nickname">Generate</a>
+                            </div>
+                            <div id="nickname-warning" class="warning">
+                                Please don't use your real name!
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- - - - -->
+                <section class="password">
+                    <a href="#" title="Close" class="close-btn">&times;</a>
+                    <div class="top">
+                        <div class="left">
+                            <h2>Security</h2>
+                        </div>
+                        <div class="right">
+                            <div class="steps">
+                                <a class="step-1 viewed checked" href="#">1</a>
+                                <span class="sep filled"></span>
+                                <span class="sep filled"></span>
+                                <a class="step-2 viewed checked" href="#">2</a>
+                                <span class="sep filled"></span>
+                                <span class="sep filled"></span>
+                                <span class="step-3 viewed">3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="container">
+                            <h3>Prove you're not a robot!</h3>
+                            <div class="controls email">
+                                <label for="field-parent-email">What's your parent's email address?</label>
+                                <input type="text" name="parent" id="field-parent-email">
+                            </div>
+                            <h3 class="password-title"> Your password is: </h3>
+                            <div class="generated-password">
+                                <div class="password-background">
+                                    <div class="password-edit"> Edit </div>
+                                    <div class="password-text">Generating...</div>
+                                </div>
+                                <div class="password-notice"> Make sure to remember this password! </div>
+                            </div>
+                            <div class="custom-password">
+                                <div class="controls password">
+                                    <label for="field-password">Password</label>
+                                    <input type="password" name="password" id="field-password">
+                                </div>
+                                <div class="controls password again">
+                                    <label for="field-password-again">Retype your Password</label>
+                                    <input type="password" name="password-again" id="field-password-again">
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- - - - -->
+            </div>
+        </section>
+        <footer>
+            <div class="colophon">
+                <div class="fb-like" data-href="http://www.facebook.com/diy" data-send="false" data-layout="button_count" data-width="120" data-show-faces="false"></div>
+                
+                <ul class="links pull-left">
+                    <li class="big parents"><a href="/guides">Adults</a></li>
+                    <li class="big app"><a href="http://itunes.apple.com/us/app/diy.org/id519308960?mt=8" target="_blank">Mobile App</a></li>
+                </ul>
+                
+                <ul class="links">
+                    <li><a href="//diy.org/about">About</a></li>
+                    <li><a href="javascript:UserVoice.showPopupWidget();">Help</a></li>
+                    <li><a href="//diy.org/blog/">Blog</a></li>
+                    <li><a href="//diy.org/jobs">Jobs</a></li>
+                    <li><a href="//diy.org/policies">Policies</a></li>
+                </ul>
+                <span class="company-caption">Made in SF.</span>
+            </div>
+        </footer>
+        
+
+        <!-- JS -->
+        
+        <!--[if lt IE 9]>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <![endif]-->
+        <!--[if gte IE 9]><!-->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <!--<![endif]-->
+        
+        
+        <!-- Scripts -->
+        <script>if(typeof DIY==='undefined'){window.DIY={};}DIY.session={};</script>
+        <script src="/globals.js"></script>
+        
+        <!-- Socketio -->
+        
+        <script src="//d10yyh63llk3uw.cloudfront.net/js/_min/lib/socket.io.js?v21f46843041"></script>
+        
+        
+        <script src="//d10yyh63llk3uw.cloudfront.net/js/_min/lib.gz.js?v2ca5d978524"></script>
+        <script src="//d10yyh63llk3uw.cloudfront.net/js/_min/www.gz.js?v2d43493088c"></script>
+        <script src="//d10yyh63llk3uw.cloudfront.net/js/_min/www.splash.gz.js?v281c76cc35d"></script>
+        
+        
+        <!-- Defer -->
+        <script>
+            while(_deferred.length){_deferred.pop()();}
+            _defer=function(fn){fn();};
+        </script>
+        
+        <!-- Help widget -->
+        <script type="text/javascript">
+            var uvOptions = {};
+            (function() {
+                var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+                uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/gl782HLwy28SXVr7wk5NQ.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+            })();
+        </script>
+        
+            
+            <!-- Google Analytics -->
+            <script>
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-25616278-1']);
+                _gaq.push(['_setDomainName', 'diy.org']);
+                _gaq.push(['_setCustomVar', 1, 'Logged In', 'False', 2]);
+                _gaq.push(['_trackPageview']);
+        
+                (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+            </script>
+        
+    </body>
+</html>
