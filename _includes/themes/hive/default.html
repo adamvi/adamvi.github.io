@@ -9,7 +9,7 @@
       {{ site.title }}
     </title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">
+    <meta name="{{ site.title}}" content="{{ site.tagline }}">
 	
 	
 	<!-- start: Mobile Specific -->
@@ -29,28 +29,21 @@
 
 	<!--  Yellow color for hive -->
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/color.css">
-	<!-- start: style switcher
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/color-1.css" class="switchable">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/color-2.css" class="switchable">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/color-3.css" class="switchable">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/color-4.css" class="switchable">
-	end: style switcher -->
 
+    {% if page.d3 %}
+    <script src="http://d3js.org/d3.v2.min.js"></script>
+    {% endif %}
+    <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+    </script>
 
-	    {% if page.d3 %}
-	    <script src="http://d3js.org/d3.v2.min.js"></script>
-	    {% endif %}
-	    <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-	    <script type="text/javascript">
-	    MathJax.Hub.Config({
-	      tex2jax: {
-	        inlineMath: [['$','$'], ['\\(','\\)']],
-	        processEscapes: true
-	      }
-	    });
-	    </script>
-
-	    {% include JB/analytics %}
+    {% include JB/analytics %}
 
 <header id="header">
 
@@ -181,7 +174,7 @@
 				    </div>
 				    <div id="collapseOne" class="accordion-body collapse in">
 				      <div class="accordion-inner">
-				        My experiences are almost exclusively in the use of statistical methods in the social sciences (with a brief foray into health sciences / otology).  I have extensive experience with "big data" from working with statewide educational data.
+				        My experiences are almost exclusively in the use of statistical methods in the social sciences (with a brief foray into health sciences / otology).  I have extensive experience with "big data" from working with statewide educational data.  I am a big believer in communicating statistical results with visualizations and graphics.
 				      </div>
 				    </div>
 				  </div>
