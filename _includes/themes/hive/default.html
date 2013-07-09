@@ -3,13 +3,12 @@
 <head>
 
 	<meta charset="utf-8">
-	<title>      {% if page.title %}
-        {{ page.title }} - 
-      {% endif %}
-      {{ site.title }}
+	<title> {{ site.title}} - {{ site.tagline }}
+        {% if page.title %}
+           :: {{ page.title }} 
+         {% endif %}
     </title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="{{ site.title}}" content="{{ site.tagline }}">
 	
 	
 	<!-- start: Mobile Specific -->

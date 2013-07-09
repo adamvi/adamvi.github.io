@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adam VanIwaarden
+title: Home
 ---
 {% include JB/setup %}
 
