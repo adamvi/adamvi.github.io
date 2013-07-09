@@ -844,8 +844,6 @@ h6 {
 .navbar .nav ul li.active > a,
 .navbar .nav ul li.active > a:hover,
 .navbar .nav ul li.active > a:focus {
-  background-color: #1abc9c;
-  color: #ffffff;
   padding-left: 9px;
   padding-right: 9px;
 }
@@ -861,9 +859,6 @@ h6 {
   padding: 6px 9px;
   text-decoration: none;
 }
-.navbar .nav ul a:hover {
-  background-color: #1abc9c;
-}
 .navbar .btn-navbar {
   background: none;
   border: none;
@@ -873,11 +868,6 @@ h6 {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-}
-.navbar .btn-navbar:hover,
-.navbar .btn-navbar:focus {
-  background: none;
-  color: #1abc9c;
 }
 .navbar .btn-navbar:before {
   content: "\e00c";
@@ -891,7 +881,6 @@ h6 {
   display: none;
 }
 .navbar-inner {
-  background: #eceef0;
   border: none;
   padding-left: 0;
   padding-right: 0;
