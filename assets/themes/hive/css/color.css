@@ -7,7 +7,7 @@ hover change: #d35400
 */
 
 body {
-    background-color: #FDFCFC;
+    background-color: #424242;
     color: #424242;
 }
 a, b {
@@ -43,11 +43,9 @@ a.tip:hover span {
 
 ::-moz-selection {
 background:#d35400;
-color:#FDFCFC;
 }
 ::selection { 
 background:#d35400;
-color:#FDFCFC;
 }
 .icon-muted {
     color: #E9E9E9;
@@ -364,7 +362,7 @@ blockquote p:after {
     color: #FDFCFC;
 }
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
-    background-color: #FDFCFC;
+    background-color: #424242;
     border-color: #DDDDDD #DDDDDD transparent;
     color: #d35400;
 }
