@@ -1837,20 +1837,6 @@ text-align: center;
 }
 
 
-/* ---- 404 page ---- */
-
-.error-wrapper {
-    padding: 100px 0;   
-}
-.error-wrapper .img-error{
-    float: right;
-}
-.error-wrapper h1{
-    font-size: 85px;
-    padding: 40px 0;
-    text-align: left;
-} 
-
 /* ---- coming soon ---- */
 
 .section-soon{

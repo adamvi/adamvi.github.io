@@ -1486,6 +1486,20 @@ a:hover {
       text-decoration: none
   }
 
+  /* ===== # 404 page even ===== */
+  .error-wrapper {
+      padding: 100px 0;   
+  }
+  .error-wrapper .img-error{
+      float: right;
+  }
+  .error-wrapper h1{
+	  color: #FF9900;
+      font-size: 85px;
+      padding: 20px 0 20px 0;
+      text-align: center;
+  } 
+
   /* ===== #flip even ===== */
 
   /* entire container, keeps perspective */
