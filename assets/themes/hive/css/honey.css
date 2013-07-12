@@ -898,10 +898,10 @@ button::-moz-focus-inner {
   border: 0;
 }
 ::selection {
-  background: #424242;
+  background: #f3e5d5;
 }
 ::-moz-selection {
-  background: #424242;
+  background: #f3e5d5;
 }
 
 /**********************************************************
@@ -1557,6 +1557,7 @@ button::-moz-focus-inner {
   transform-style: preserve-3d;
   position: relative;
   }
+
 
   /* hide back of pane during swap */
   .front, .back {

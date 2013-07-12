@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.48.2 r9819"
    sodipodi:docname="honeycomb_7cell.svg"
-   inkscape:export-filename="/Users/avi/Dropbox/Github_Repos/adamvi.github.io/images/honeycomb/honeycomb.png"
+   inkscape:export-filename="/Users/avi/Dropbox/Github_Repos/adamvi.github.io/assets/themes/hive/images/honeycomb/honeycomb_lrg_darktop_1.0-blur.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -205,6 +205,62 @@
        y1="240.93361"
        x2="260.5748"
        y2="240.93361" />
+    <filter
+       inkscape:collect="always"
+       id="filter5897">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8287437"
+         id="feGaussianBlur5899" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5901">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8287437"
+         id="feGaussianBlur5903" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5905">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8287437"
+         id="feGaussianBlur5907" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5909">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8287437"
+         id="feGaussianBlur5911" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5913">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8287437"
+         id="feGaussianBlur5915" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5917">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8287437"
+         id="feGaussianBlur5919" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter5921">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8287437"
+         id="feGaussianBlur5923" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -213,9 +269,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.75686275"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
+     inkscape:zoom="0.5"
      inkscape:cx="91.313059"
-     inkscape:cy="777.5183"
+     inkscape:cy="377.5183"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -250,7 +306,7 @@
      transform="translate(-502.41196,-117.90632)">
     <path
        sodipodi:type="star"
-       style="fill:url(#linearGradient5803);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949265;stroke-miterlimit:8;stroke-opacity:0.55555558;stroke-dasharray:none;marker-start:none"
+       style="fill:url(#linearGradient5803);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949264999999876;stroke-miterlimit:8;stroke-opacity:0.55555558000000005;stroke-dasharray:none;marker-start:none;filter:url(#filter5897)"
        id="path2999"
        sodipodi:sides="6"
        sodipodi:cx="91.428574"
@@ -263,9 +319,12 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="M 174.28572,383.79074 9.1392384,384.11857 -73.717906,241.26143 8.5714294,98.076475 173.71791,97.74865 256.57505,240.60578 z"
-       transform="matrix(0,-0.86320206,0.85941136,0,296.64045,782.55152)" />
+       transform="matrix(0,0.86320206,0.85941136,0,296.64045,184.83057)"
+       inkscape:export-filename="/Users/avi/Dropbox/Github_Repos/adamvi.github.io/assets/themes/hive/images/honeycomb/honeycomb_lrg_darktop_1.0-blur.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       transform="matrix(0,-0.86320206,0.85941136,0,422.26488,562.67195)"
+       transform="matrix(0,0.86320206,0.85941136,0,422.26488,404.71014)"
        d="M 174.28572,383.79074 9.1392384,384.11857 -73.717906,241.26143 8.5714294,98.076475 173.71791,97.74865 256.57505,240.60578 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -278,10 +337,13 @@
        sodipodi:cx="91.428574"
        sodipodi:sides="6"
        id="path5523"
-       style="fill:url(#linearGradient5805);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949265;stroke-miterlimit:8;stroke-opacity:0.55555558;stroke-dasharray:none;marker-start:none"
-       sodipodi:type="star" />
+       style="fill:url(#linearGradient5805);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949264999999876;stroke-miterlimit:8;stroke-opacity:0.55555558000000005;stroke-dasharray:none;marker-start:none;filter:url(#filter5901)"
+       sodipodi:type="star"
+       inkscape:export-filename="/Users/avi/Dropbox/Github_Repos/adamvi.github.io/assets/themes/hive/images/honeycomb/honeycomb_lrg_darktop_1.0-blur.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       transform="matrix(0,-0.86320206,0.85941136,0,549.06749,781.96242)"
+       transform="matrix(0,0.86320206,0.85941136,0,549.06749,185.41967)"
        d="M 174.28572,383.79074 9.1392384,384.11857 -73.717906,241.26143 8.5714294,98.076475 173.71791,97.74865 256.57505,240.60578 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -294,10 +356,13 @@
        sodipodi:cx="91.428574"
        sodipodi:sides="6"
        id="path5525"
-       style="fill:url(#linearGradient5807);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949265;stroke-miterlimit:8;stroke-opacity:0.55555558;stroke-dasharray:none;marker-start:none"
-       sodipodi:type="star" />
+       style="fill:url(#linearGradient5807);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949264999999876;stroke-miterlimit:8;stroke-opacity:0.55555558000000005;stroke-dasharray:none;marker-start:none;filter:url(#filter5905)"
+       sodipodi:type="star"
+       inkscape:export-filename="/Users/avi/Dropbox/Github_Repos/adamvi.github.io/assets/themes/hive/images/honeycomb/honeycomb_lrg_darktop_1.0-blur.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       transform="matrix(0,-0.86320206,0.85941136,0,295.60953,342.93965)"
+       transform="matrix(0,0.86320206,0.85941136,0,295.60953,624.44244)"
        d="M 174.28572,383.79074 9.1392384,384.11857 -73.717906,241.26143 8.5714294,98.076475 173.71791,97.74865 256.57505,240.60578 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -310,11 +375,14 @@
        sodipodi:cx="91.428574"
        sodipodi:sides="6"
        id="path5527"
-       style="fill:url(#linearGradient5809);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949265;stroke-miterlimit:8;stroke-opacity:0.55555558;stroke-dasharray:none;marker-start:none"
-       sodipodi:type="star" />
+       style="fill:url(#linearGradient5809);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949264999999876;stroke-miterlimit:8;stroke-opacity:0.55555558000000005;stroke-dasharray:none;marker-start:none;filter:url(#filter5909)"
+       sodipodi:type="star"
+       inkscape:export-filename="/Users/avi/Dropbox/Github_Repos/adamvi.github.io/assets/themes/hive/images/honeycomb/honeycomb_lrg_darktop_1.0-blur.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        sodipodi:type="star"
-       style="fill:url(#linearGradient5665);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949265;stroke-miterlimit:8;stroke-opacity:0.55555558;stroke-dasharray:none;marker-start:none"
+       style="fill:url(#linearGradient5665);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949264999999876;stroke-miterlimit:8;stroke-opacity:0.55555558000000005;stroke-dasharray:none;marker-start:none;filter:url(#filter5913)"
        id="path5529"
        sodipodi:sides="6"
        sodipodi:cx="91.428574"
@@ -327,9 +395,12 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="M 174.28572,383.79074 9.1392384,384.11857 -73.717906,241.26143 8.5714294,98.076475 173.71791,97.74865 256.57505,240.60578 z"
-       transform="matrix(0,-0.86320206,0.85941136,0,548.33113,342.79239)" />
+       transform="matrix(0,0.86320206,0.85941136,0,548.33113,624.5897)"
+       inkscape:export-filename="/Users/avi/Dropbox/Github_Repos/adamvi.github.io/assets/themes/hive/images/honeycomb/honeycomb_lrg_darktop_1.0-blur.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       transform="matrix(0,-0.86320206,0.85941136,0,421.69908,123.14706)"
+       transform="matrix(0,0.86320206,0.85941136,0,421.69908,844.23503)"
        d="M 174.28572,383.79074 9.1392384,384.11857 -73.717906,241.26143 8.5714294,98.076475 173.71791,97.74865 256.57505,240.60578 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -342,11 +413,14 @@
        sodipodi:cx="91.428574"
        sodipodi:sides="6"
        id="path5766"
-       style="fill:url(#linearGradient5811);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949265;stroke-miterlimit:8;stroke-opacity:0.55555558;stroke-dasharray:none;marker-start:none"
-       sodipodi:type="star" />
+       style="fill:url(#linearGradient5811);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949264999999876;stroke-miterlimit:8;stroke-opacity:0.55555558000000005;stroke-dasharray:none;marker-start:none;filter:url(#filter5917)"
+       sodipodi:type="star"
+       inkscape:export-filename="/Users/avi/Dropbox/Github_Repos/adamvi.github.io/assets/themes/hive/images/honeycomb/honeycomb_lrg_darktop_1.0-blur.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        sodipodi:type="star"
-       style="fill:url(#linearGradient5772);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949265;stroke-miterlimit:8;stroke-opacity:0.55555558;stroke-dasharray:none;marker-start:none"
+       style="fill:url(#linearGradient5772);fill-opacity:1;stroke:#f1c40f;stroke-width:7.99949264999999876;stroke-miterlimit:8;stroke-opacity:0.55555558000000005;stroke-dasharray:none;marker-start:none;filter:url(#filter5921)"
        id="path5770"
        sodipodi:sides="6"
        sodipodi:cx="91.428574"
@@ -359,6 +433,9 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="M 174.28572,383.79074 9.1392384,384.11857 -73.717906,241.26143 8.5714294,98.076475 173.71791,97.74865 256.57505,240.60578 z"
-       transform="matrix(0,-0.86320206,0.85941136,0,423.35504,1002.0777)" />
+       transform="matrix(0,0.86320206,0.85941136,0,423.35504,-34.695606)"
+       inkscape:export-filename="/Users/avi/Dropbox/Github_Repos/adamvi.github.io/assets/themes/hive/images/honeycomb/honeycomb_lrg_darktop_1.0-blur.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
