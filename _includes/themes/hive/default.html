@@ -97,41 +97,57 @@
 
 <body>
 	    <div class="hive-grid hive-grid-inset">
+          {% for item in page.contents %}
+			{% if item.location == 'center' %}
 	        <!--  HERO -->
 	        <div style="margin-left: -126.5px; margin-top: -146.07px; z-index: 3;" class="patch hero-patch">
-	        	<a class="tip" style="background-image: url('{{ ASSET_PATH }}/images/DIY_Skilz/yeti_253x292.png');">
-					<span>SASQUATCH!</span></a>
+	        	<a class="tip" style="background-image: url('{{ ASSET_PATH }}/{{item.image}}');">
+					<span>{{item.description}}</span></a>
 	        </div>
+			{% endif %}
+			{% if item.location == 'upper_left' %}
 	        <!--  upper left hex -->
 	        <div style="margin-left: -253px; margin-top: -365.174px; z-index: 1;" class="patch">
-	        	<a href="https://github.com/{{site.author.github}}" class="tip" style="background-image: url('{{ ASSET_PATH }}/images/DIY_Skilz/opensourcerer_253x292.png');">
-					<span>Open Source Development</span></a>
+	        	<a href="{{item.link}}" class="tip" style="background-image: url('{{ ASSET_PATH }}/{{item.image}}');">
+					<span>{{item.description}}</span></a>
 	        </div>
+			{% endif %}
+			{% if item.location == 'upper_right' %}
 	        <!--  upper right hex -->
 	        <div style="margin-left: 0px; margin-top: -365.174px; z-index: 1;" class="patch">
-	        	<a href="research.html" class="tip" style="background-image: url('{{ ASSET_PATH }}/images/DIY_Skilz/datavisionary_253x292.png');">
-				<span>Research and Projects</span></a>
+	        	<a href="{{item.link}}" class="tip" style="background-image: url('{{ ASSET_PATH }}/{{item.image}}');">
+					<span>{{item.description}}</span></a>
 	        </div>
+			{% endif %}
+			{% if item.location == 'center_left' %}
 	        <!--  center left hex -->
 	        <div style="margin-left: -379.5px; margin-top: -146.07px; z-index: 1;" class="patch">
-	        	<a href="blog.html" class="tip" style="background-image: url('{{ ASSET_PATH }}/images/DIY_Skilz/illustrator_253x292.png');">
-				<span>My Blog</span></a>
+	        	<a href="{{item.link}}" class="tip" style="background-image: url('{{ ASSET_PATH }}/{{item.image}}');">
+					<span>{{item.description}}</span></a>
 	        </div>
+			{% endif %}
+			{% if item.location == 'center_right' %}
 	        <!--  center right hex -->
 	        <div style="margin-left: 126.5px; margin-top: -146.07px; z-index: 1;" class="patch">
-	        	<a href="academics.html" class="tip" style="background-image: url('{{ ASSET_PATH }}/images/DIY_Skilz/entrepreneur_253x292.png');">
-				<span>Academics and CV</span></a>
+	        	<a href="{{item.link}}" class="tip" style="background-image: url('{{ ASSET_PATH }}/{{item.image}}');">
+					<span>{{item.description}}</span></a>
 	        </div>
+			{% endif %}
+			{% if item.location == 'lower_left' %}
 	        <!--  lower left hex -->
 	        <div style="margin-left: -253px; margin-top: 73.0348px; z-index: 1;" class="patch">
-	        	<a href="photo_albums.html" class="tip" style="background-image: url('{{ ASSET_PATH }}/images/DIY_Skilz/photographer_253x292.png');">
-				<span>My Life in Pictures</span></a>
+	        	<a href="{{item.link}}" class="tip" style="background-image: url('{{ ASSET_PATH }}/{{item.image}}');">
+					<span>{{item.description}}</span></a>
 	        </div>
+			{% endif %}
+			{% if item.location == 'lower_right' %}
 	        <!--  lower right hex -->
 	        <div style="margin-left: 0px; margin-top: 73.0348px; z-index: 1;" class="patch">
-	        	<a href="food_cooking.html"  class="tip" style="background-image: url('{{ ASSET_PATH }}/images/DIY_Skilz/chef_253x292.png');">
-				<span>All Things Food</span></a>
+	        	<a href="{{item.link}}" class="tip" style="background-image: url('{{ ASSET_PATH }}/{{item.image}}');">
+					<span>{{item.description}}</span></a>
 	        </div>
+			{% endif %}
+          {% endfor %}
 	    </div>
 
 	<!-- start: hello -->
