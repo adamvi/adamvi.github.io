@@ -1648,11 +1648,8 @@ button::-moz-focus-inner {
 /*  even footer */
   .post-footer{
       padding-top: 10px;
-	  text-align: center;
+	  text-align: left;
 	  margin-top: 10px;
-  }
-  .post-footer h1{
-      font-weight: 77;
   }
   .post-footer .footer-links {
       margin: 0;

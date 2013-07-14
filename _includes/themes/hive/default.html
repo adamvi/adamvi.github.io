@@ -150,12 +150,12 @@
 	<div class="post-footer">
 		<div class="container">
 			<div class="row">
-					<div class="span6">
-						<div class="copyright">{{ content }}</div>
+					<div class="span7">
+						<div class="copyright">{{ site.copyright }}</div>
 					</div>
-					<div class="span6">
+					<div class="span5">
 						<ul class="footer-links">
-							{% for item in page.footer_social %}
+							{% for item in site.footer_social %}
 							<li>
 								<a class="thumbnail-social-icon" href="{{item.link}}"><img alt="" src="{{ ASSET_PATH }}/{{item.image}}"></a>
 							</li>

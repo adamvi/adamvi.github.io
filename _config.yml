@@ -99,6 +99,24 @@ JB :
   sharing :
     provider : false
     
+
+  # Special section for Hive theme - 'footer social' 
+  # Puts social icons/links into each "post" footer section along with the copyright info.
+footer_social:
+  - type: github
+    link: https://github.com/adamvi
+    image: images/social-icon/github.png
+
+  - type: linkedin
+    link: my.linkedin.handle
+    image: images/social-icon/linkedin.png
+
+  - type: twitter
+    link: my.twit.handle
+    image: images/social-icon/twitter.png
+
+copyright: "Copyright © 2013 Adam Van Iwaarden. All rights reserved. This site is powered by Jekyll and hosted on GitHub Pages using the Hive theme (github.com/adamvi/hive) for Jekyll Bootstrap."
+
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
