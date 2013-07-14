@@ -25,8 +25,6 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 
-production_url : adamvi
-
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -101,35 +99,9 @@ JB :
   sharing :
     provider : false
     
-  # Special section for Hive theme - 'navbar' 
-  # Configures the navigation bar for the website.  NOTE: Home is excluded from default.html layout.
-  #
-  navbar:
-    name: About Me
-    link: '#fakeAboutLink'
-
-    name: Pages
-    menu: true
-      - label: Main Item 1
-        link:  '#fakeLink1'
-      - label: Main Item 2 - Sub Menu
-        link:  404.html
-        submenu: true
-        - label: Sub-Item 1
-          link:  404.html
-        - label: Sub-Item 2
-          link:  404.html
-        - label: Sub-Item 3
-          link:  404.html
-      - label: Main Item 3
-        link:  404.html
-
-    - name: Contact Me
-      link: '#fakeContactLink'
 
   # Special section for Hive theme - 'footer social' 
   # Puts social icons/links into each "post" footer section along with the copyright info.
-
 footer_social:
   - type: github
     link: https://github.com/adamvi
