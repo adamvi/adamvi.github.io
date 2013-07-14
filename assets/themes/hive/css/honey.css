@@ -1644,3 +1644,28 @@ button::-moz-focus-inner {
       background: #026873;
   }
  
+
+/*  even footer */
+  .post-footer{
+      padding-top: 10px;
+	  text-align: center;
+	  margin-top: 10px;
+  }
+  .post-footer h1{
+      font-weight: 77;
+  }
+  .post-footer .footer-links {
+      margin: 0;
+      text-align: right;
+  }  
+  .post-footer .footer-links li {
+      display: inline-block;
+      margin-left: 10px;
+      vertical-align: middle;
+  }
+
+  .thumbnail-social-icon{
+      display: inline-block;
+      margin-bottom: 10px;
+  }
+  

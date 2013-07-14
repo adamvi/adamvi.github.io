@@ -242,17 +242,7 @@ footer a {
 footer a:hover {
     color: #FDFCFC;
 }
-.pre-footer{
-    background-color: #d35400;
-    color: #FDFCFC;
-}
-.pre-footer h3{
-    color: #FDFCFC;
-}
-.post-footer{
-    background-color: #1A1A1A;
-    color: #FDFCFC;
-}
+
 .contact-footer i{
     color:#FDFCFC;
 }
@@ -264,6 +254,14 @@ footer a:hover {
     padding-bottom: 30px;
     padding-top: 30px;
     background-color: #FDFCFC;
+}
+
+.post-footer{
+    background-color: #424242;
+    color: #FF9900;
+}
+.post-footer h1{
+    color: #FF9900;
 }
 
 /* ===== @Tablets to Phones ===== */

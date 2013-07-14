@@ -60,10 +60,20 @@ contents:
     description: All Things Food
     image: images/DIY_Skilz/chef_253x292.png
     link: food_cooking.html
+
+footer_social:
+  - type: github
+    link: https://github.com/adamvi
+    image: images/social-icon/github.png
+
+  - type: linkedin
+    link: my.linkedin.handle
+    image: images/social-icon/linkedin.png
+
+  - type: twitter
+    link: my.twit.handle
+    image: images/social-icon/twitter.png
 ---
 {% include JB/setup %}
 
-
-## Copyright
-
-This site is powered by Jekyll on [GitHub](https://github.com) Pages using the [Hive theme](https://github.com/adamvi/hive) for [Jekyll Bootstrap](http://jekyllbootstrap.com).
+Copyright © 2013 Adam Vaniwaarden. All rights reserved. This site is powered by [Jekyll](http://jekyllrb.com/) and hosted on [GitHub Pages](https://github.com) using the [Hive theme](https://github.com/adamvi/hive) for [Jekyll Bootstrap](http://jekyllbootstrap.com).
