@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Adam VanIwaarden
-tagline: A site for all my work
+title : Adam Van Iwaarden
+tagline: My Beehive
 author :
   name : Adam VanIwaarden
   email : avaniwaarden@gmail.com
@@ -89,7 +89,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-30884973-2'
+        tracking_id : 'UA-XXXXXXXX-Y'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.

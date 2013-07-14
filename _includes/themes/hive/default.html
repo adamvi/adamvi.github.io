@@ -42,8 +42,6 @@
     });
     </script>
 
-    {% include JB/analytics %}
-
 <header id="header">
 
 	<!--start: navbar -->
@@ -98,7 +96,7 @@
 			{% if item.location == 'center' %}
 	        <!--  HERO -->
 	        <div style="margin-left: -126.5px; margin-top: -146.07px; z-index: 3;" class="patch hero-patch">
-	        	<a class="tip" style="background-image: url('{{ ASSET_PATH }}/{{item.image}}');">
+	        	<a href="{{item.link}}" class="tip" style="background-image: url('{{ ASSET_PATH }}/{{item.image}}');">
 					<span>{{item.description}}</span></a>
 	        </div>
 			{% endif %}
@@ -148,27 +146,29 @@
 	    </div>
 
 
-<!-- start: footer -->
-		<div class="post-footer">
-			<div class="container">
-				<div class="row">
-						<div class="span6">
-							<div class="copyright">{{ content }}</div>
-						</div>
-						<div class="span6">
-							<ul class="footer-links">
-								{% for item in page.footer_social %}
-								<li>
-									<a class="thumbnail-social-icon" href="{{item.link}}"><img alt="" src="{{ ASSET_PATH }}/{{item.image}}"></a>
-								</li>
-					            {% endfor %}
-							</ul>
-						</div>
-				</div>
+    <!-- start: footer -->
+	<div class="post-footer">
+		<div class="container">
+			<div class="row">
+					<div class="span6">
+						<div class="copyright">{{ content }}</div>
+					</div>
+					<div class="span6">
+						<ul class="footer-links">
+							{% for item in page.footer_social %}
+							<li>
+								<a class="thumbnail-social-icon" href="{{item.link}}"><img alt="" src="{{ ASSET_PATH }}/{{item.image}}"></a>
+							</li>
+				            {% endfor %}
+						</ul>
+					</div>
 			</div>
 		</div>
+	</div>
 <!-- end: footer -->
 
+	    {% include JB/comments %}
+	    {% include JB/analytics %}
 
     </body>
 </html>
