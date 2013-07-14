@@ -53,41 +53,38 @@
 				<a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar">
 					<span><i class="icon-reorder"></i></span>
 				</a>
-				<a class="brand">{{site.title}}</a>
+				<a class="brand">{{site.title}} - {{site.tagline}}</a>
 
                 <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-01"></button>
                 <div class="nav-collapse collapse" id="nav-collapse-01">
                   <ul class="nav">
+                    {% for item in page.navbar %}
 					<li>
-                      <a href="#fakelink">
-                        Pages <b class="caret"></b>
+                      <a href="{{item.link}}">
+                         {{item.name}} 
+			 			 {% if item.menu != null %}
+						 <b class="caret"></b>
+			 			 {% endif %}
                       </a>
-                      <ul>
-                        <li><a href="#fakelink">Element One</a></li>
-                        <li>
-                          <a href="#fakelink">Sub menu</a>
-                          <ul>
-                            <li><a href="#fakelink">Element One</a></li>
-                            <li><a href="#fakelink">Element Two</a></li>
-                            <li><a href="#fakelink">Element Three</a></li>
-                          </ul> <!-- /Sub menu -->
-                        </li>
-                        <li><a href="#fakelink">Element Three</a></li>
-                      </ul> <!-- /Sub menu -->
+		 			  {% if item.menu != null %}
+                        <ul>
+                        {% for subitem in item.menu %}
+						<li><a href="{{subitem.link}}">{{subitem.label}}</a>
+                          {% if subitem.submenu != null %}
+                            <ul>
+                              {% for subsubitem in subitem.submenu %}
+                                <li><a href="{{subsubitem.link}}">{{subsubitem.label}}</a></li>
+                              {% endfor %}
+                            </ul> <!-- /Sub menu -->
+                          {% endif %}
+						  </li>
+                        {% endfor %}
+                        </ul>
+                      {% endif %}
                     </li>
-                    <li>
-                      <a href="#fakelink">
-                        About Me
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#fakelink">
-                        Contact Me
-                      </a>
-                    </li>
+					{% endfor %}
                   </ul>
-                </div><!--/.nav -->
-
+                </div><!-- nav -->
 			</div>
 		</div>
 	</div><!--end: navbar -->

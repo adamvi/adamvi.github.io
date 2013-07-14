@@ -1,6 +1,31 @@
 ---
 layout: default
 title: Home
+
+navbar:
+  - name: About Me
+    link: '#fakeAboutLink'
+
+  - name: Pages
+    menu: true
+    - label: Main Item 1
+      link:  '#fakeLink1'
+    - label: Main Item 2 - Sub Menu
+      link:  404.html
+      submenu: true
+      - label: Sub-Item 1
+        link:  404.html
+      - label: Sub-Item 2
+        link:  404.html
+      - label: Sub-Item 3
+        link:  404.html
+    - label: Main Item 3
+      link:  404.html
+
+  - name: Contact Me
+    link: '#fakeContactLink'
+
+
 contents:
   - location: center
     description: SASQUATCH!
