@@ -42,6 +42,9 @@
     });
     </script>
 
+</head>
+
+<body>
 <header id="header">
 
 	<!--start: navbar -->
@@ -56,7 +59,7 @@
                 <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-01"></button>
                 <div class="nav-collapse collapse" id="nav-collapse-01">
                   <ul class="nav">
-                    {% for item in page.navbar %}
+                    {% for item in site.navbar %}
 					<li>
                       <a href="{{item.link}}">
                          {{item.name}} 
@@ -88,9 +91,6 @@
 	</div><!--end: navbar -->
 </header>
 
-</head>
-
-<body>
 	    <div class="hive-grid hive-grid-inset">
           {% for item in page.contents %}
 			{% if item.location == 'center' %}
@@ -157,7 +157,7 @@
 						<ul class="footer-links">
 							{% for item in site.footer_social %}
 							<li>
-								<a class="thumbnail-social-icon" href="{{item.link}}"><img alt="" src="{{ ASSET_PATH }}/{{item.image}}"></a>
+								<a class="thumbnail-social-icon" title='{{item.type}}' href="{{item.link}}"><img alt="" src="{{ ASSET_PATH }}/{{item.image}}"></a>
 							</li>
 				            {% endfor %}
 						</ul>
