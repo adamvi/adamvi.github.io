@@ -1,6 +1,7 @@
 ---
 layout: page
 page_type: ABOUT
+comments: false
 
 title: About Me
 icon: flat/illustrations/compass.png
@@ -20,8 +21,55 @@ highlights:
     link: cv.html
 
   - label: Master Chef
-    description: "I am skilled, yet lack formal training in the arts.  A fat kid's intuition is all I need!  Sous vide anyone?  You buy I'll fry!"
+    description: "I am skilled, yet lack formal training in the arts.  A fat kid's intuition is all I need!  Sous vide anyone?"
     link: food_cooking.html
+
+contents:
+  - location: center
+    description: Open Source Development
+    image: images/DIY_Skilz/opensourcerer_253x292.png
+    link: https://github.com/adamvi
+
+  - location: upper_farleft
+    description: Programming
+    image: images/DIY_Skilz/front_end_dev_253x292.png
+    link: blog.html
+
+  - location: upper_left
+    description: Maps
+    image: images/DIY_Skilz/cartographer_253x292.png
+    link: photo_albums.html
+
+  - location: lower_left
+    description: My Life in Pictures
+    image: images/DIY_Skilz/photographer_253x292.png
+    link: photo_albums.html
+
+  - location: lower_farleft
+    description: Gears
+    image: images/DIY_Skilz/mechanicalengineer_253x292.png
+    link: food_cooking.html
+
+  - location: lower_right
+    description: All Things Food
+    image: images/DIY_Skilz/chef_253x292.png
+    link: food_cooking.html
+
+  - location: lower_farright
+    description: Academics and CV
+    image: images/DIY_Skilz/entrepreneur_253x292.png
+    link: academics.html
+    
+  - location: upper_right
+    description: Research and Projects
+    image: images/DIY_Skilz/datavisionary_253x292.png
+    link: research.html
+
+  - location: upper_farright
+    description: Junior ENT
+    image: images/DIY_Skilz/medic_253x292.png
+    link: food_cooking.html
+
 ---
 {% include JB/setup %}
 

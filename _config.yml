@@ -101,7 +101,7 @@ JB :
     
 navbar:
   - name: About Me
-    link: '#fakeAboutLink'
+    link: about.html
 
   - name: Pages
     menu: true
