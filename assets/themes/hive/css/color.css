@@ -53,7 +53,7 @@ background-color: #424242;
     color: #E9E9E9;
 }
 .navbar .nav > li > a{
-	color: #FF9900;
+    color: #FF9900;
 }
 .navbar .nav > li > a:hover {
     color: #d35400;
@@ -115,7 +115,7 @@ color: #424242;
 }
 .navbar .nav ul a:hover {
     color: #d35400;
-	background-color: #FF9900;
+    background-color: #FF9900;
 }
 .navbar-unread,
 .navbar-new {
@@ -253,7 +253,21 @@ footer a:hover {
 .section-wrapper {
     padding-bottom: 30px;
     padding-top: 30px;
-    background-color: #FDFCFC;
+    background-color: #E9E9E9;
+}
+
+.section-wrapper h1, h2, h3{
+    color: #FF9900;
+}
+
+.section-wrapper p{
+    color: #424242;
+}
+
+.page-title{
+    color: #FF9900;
+	font-weight: 700;
+    background-color: #AEAEAE;
 }
 
 .post-footer{

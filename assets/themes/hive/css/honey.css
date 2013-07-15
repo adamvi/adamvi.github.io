@@ -1665,4 +1665,27 @@ button::-moz-focus-inner {
       display: inline-block;
       margin-bottom: 10px;
   }
-  
+
+
+  /*  even page-title */
+  .page-title{
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+	  margin-top: 76px;
+  }
+  .page-title h2{
+      display: inline-block;
+	  font-weight: 400;
+	  font-size: 26px;
+	  line-height: 40px;
+  }
+  .page-title .section-wrapper{
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .img-title{
+      margin-top: -50px;
+	  position: absolute;
+      right: 15%
+  }
