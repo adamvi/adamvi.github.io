@@ -137,8 +137,9 @@
 		</div>
 	</div>
 </header><!-- end: hello -->
-{% endif %}
+{% endif %} <!-- end: accordion -->
 
+{% if page.page_type == 'ABOUT' or page.page_type == 'PORTFOLIO' %}
 <div class="hive-grid-small hive-grid-inset">
   {% for item in page.contents %}
 	{% if item.location == 'center' %}
@@ -206,6 +207,7 @@
 	{% endif %}
   {% endfor %}
 </div>
+{% endif %} <!-- end: SMALL hive grid -->
 
 {% if page.page_type == 'PORTFOLIO' %}
 <!-- start: portfolio -->
@@ -428,6 +430,61 @@
 	</div>
 		
 </div><!-- end: portfolio-->
+{% endif %}
+
+{% if page.page_type == 'CONTACT' %}
+<!-- start: CONTACT -->
+<div class="section-map">
+
+	<div class="row-fluid">
+
+		<div class="span6">
+			<div class="hive-contact">
+				<div class="separator">
+					<div class="lines">
+						<div>
+							<h3 class="contact">Get in touch</h3>
+						</div>
+					</div>
+				</div>
+
+				<ul style="text-align:center; list-style: none; font-size: 18px;">
+					<li>
+						<i class="icon-map-marker"></i>  2121 El Paseo St. #1316 <br> Houston, TX  77054
+					</li>
+					<li>
+						<p></p>
+					</li>
+					<li>
+						<i class="icon-bullhorn"></i> (303) 562-7467
+					</li>
+					<li>
+						<p></p>
+					</li>
+					<li>
+						<i class="icon-envelope"></i> avaniwaarden@gmail.com
+					</li>						
+				</ul>
+			</div>	
+		</div>	 	
+
+		<div class="span6">
+			<!-- construct map on Mapbox.com  ::  https://tiles.mapbox.com/newmap# -->
+			<!-- <iframe width='100%' height='750' frameBorder='0' src='http://a.tiles.mapbox.com/v3/adamvi.map-grk1mjyo.html#2/13.239945499286312/0'></iframe>
+			<iframe width='100%' height='750' frameBorder='0' src='http://a.tiles.mapbox.com/v3/adamvi.map-grk1mjyo.html#15/29.693849941931536/-95.39570331573486'></iframe>
+			<iframe width='100%' height='750' frameBorder='0' src='{{ page.map_link }}'></iframe> -->
+			<iframe width='80%' height='500' frameBorder='0' seemless src='http://a.tiles.mapbox.com/v3/adamvi.map-grk1mjyo.html#10/29.757224408272688/-95.31600952148438'></iframe>
+			<!-- USE SINGLE png map (static map from published mapbox)
+			<div class="container" style="position: relative; height=500px;">
+				<div class="separator">
+					<img src="/assets/themes/hive/images/map_tiles/Houston_500x500.png" style="transform: translate(40px, 0px);">
+				</div>
+			</div> -->
+		</div>
+
+	</div>
+
+</div><!-- end: CONTACT -->
 {% endif %}
 
 

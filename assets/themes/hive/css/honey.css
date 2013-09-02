@@ -512,6 +512,13 @@ a:hover {
 .icon-resize-horizontal {
   background-position: -456px -118px;
 }
+.icon-hdd {
+  background-position: 0px -144px;
+}
+.icon-bullhorn {
+  background-position: -24px -144px;
+}
+
 .pull-right .dropdown-menu {
   left: auto;
   right: 0;
@@ -1526,6 +1533,13 @@ button::-moz-focus-inner {
   z-index: 5;
 }
 
+.hive-contact {
+  height: 500px;
+  background-image: url('/assets/themes/hive/images/honeycomb/honeycomb_contact_1.png');
+  background-repeat: no-repeat;
+  background-position: 50% 65%; 
+  background-size: 60%;
+}
 
   /* ------------------------------------------- */
   /* ------ stylize the "title" in a:hover ----- */
@@ -1732,7 +1746,19 @@ button::-moz-focus-inner {
       padding-bottom: 55px;
   }
   .img-title{
-      margin-top: -50px;
+      margin-top: -20px;
 	  position: absolute;
       right: 15%
+  }
+
+  .contact {
+	  font-size: 30px;
+	  text-shadow: 1.5px 1.5px #424242;
+      text-align: center;
+	  line-height: 45px;
+      padding-top: 100px;
+      padding-bottom: 20px;
+  }
+  .contact > ul {
+      text-align: center;
   }
